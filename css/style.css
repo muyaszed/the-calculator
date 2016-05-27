@@ -1,0 +1,59 @@
+.main {
+  margin-top: 100px;
+}
+
+.wrapper {
+  border: 2px solid black;
+  height: 315px;
+  width: 342px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.numScreen {
+  border: 1px solid black;
+  background: green;
+  height: 80px;
+  width: 322px;
+}
+
+.numArea {
+  margin-top: 10px;
+  padding: 0;
+  width: 322px;
+  border: 1px solid black;
+}
+.numArea .num {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+.numArea .num a {
+  display: block;
+  color: grey;
+  padding-top: 2px;
+}
+.numArea .num:hover {
+  background: #000;
+}
+.numArea .num:active {
+  background: rgba(0, 0, 0, 0.4);
+}
+.numArea .num:active a {
+  color: black;
+}
+.numArea #oprPlus {
+  height: 85px;
+}
+.numArea #oprPlus i {
+  margin-top: 35px;
+}
+
+#screenText {
+  font-size: 3em;
+  padding: 0 10px;
+  font-family: 'Exo 2', sans-serif;
+}
